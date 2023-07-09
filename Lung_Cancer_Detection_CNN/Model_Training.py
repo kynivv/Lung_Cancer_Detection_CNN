@@ -19,12 +19,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Importing Dataset
-#from zipfile import ZipFile
-#
-#data_path = 'lung-and-colon-cancer-histopathological-images.zip'
-#
-#with ZipFile(data_path) as zip:
-#    zip.extractall()
+from zipfile import ZipFile
+
+data_path = 'lung-and-colon-cancer-histopathological-images.zip'
+
+with ZipFile(data_path) as zip:
+    zip.extractall()
 
 print('Importing Dataset is completed')
 
